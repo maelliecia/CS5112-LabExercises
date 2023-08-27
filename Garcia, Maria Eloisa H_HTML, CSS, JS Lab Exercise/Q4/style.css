@@ -1,0 +1,28 @@
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+li:nth-child(even), .even{
+    background-color: #eee;
+}
+
+li:nth-child(odd), .odd{
+    background-color: #f9f9f9;
+}
+
+li, .newItem{
+    font-size: 20px;
+    padding: 14px 10px 14px 40px;
+}
+
+.newItem{
+    display: flex;
+}
+
+div{
+    display:inline;
+}
+/* Submitted by Maria Eloisa H. Garcia */
+
